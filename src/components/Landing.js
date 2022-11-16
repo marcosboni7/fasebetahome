@@ -38,13 +38,23 @@ const TextsInformations = styled.div`
 }
 .row:hover {}
  
+.
+
+.q-text {
+
+}
+
 `
+
 
 
 export default function Menu() {
     return (
         <>
             <Landing>
+
+
+
 
                 <div className="container">
                     <strong style={{ fontSize: "50px" }}>
@@ -65,22 +75,44 @@ export default function Menu() {
                                     <div className="col" style={{ background: "yellow", borderRadius: "10px" }}>
                                         <div className="col-img">
                                             <div className="quantiy-text">
+
                                                 <strong> Quantidade Minima </strong>
 
+                                                <div className="quantiy-number"
+                                                    style={{
+                                                        width: "75px", height: "70px", backgroundColor: "#fff900", border:
+
+                                                            "2px solid black", borderRadius: "156px", marginLeft: "113px"
+                                                    }}>
+
+
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col order-12" style={{ background: "yellow", marginLeft: "52px", borderRadius: "10px" }}>
+                                    <div className="col order-12" 
+
+                                    style={{ background: "yellow", marginLeft: "52px", borderRadius: "10px" }}>
+
+                                        <strong className="q-text"> Quantidade Minima </strong>
+
+                                        
+
                                         <div className="quantiy-text">
-                                            <strong> Quantidade Minima </strong>
+
 
                                         </div>
                                     </div>
-                                    <div className="col order-1" style={{ background: "yellow", borderRadius: "10px", marginLeft: "62px" }}>
-                                        <div className="quantiy-text">
-                                            <strong> Quantidade Minima </strong>
+                                    <div className="col order-1"
 
+                                     style={{ background: "yellow", borderRadius: "10px", marginLeft: "62px" }}>
+
+                                        <strong> Quantidade Minima </strong>
+
+                                        <div className="quantiy-text">
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>

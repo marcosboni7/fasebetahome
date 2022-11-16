@@ -39,7 +39,13 @@ const User = styled.div`
     margin-top: -106px;
     border-radius: 155px;
 }
+ .alice-carousel__prev-btn-item {
+    background: black;
+    width: 43px;
+    border-radius: 90px;
 
+
+}
 `
 
 export default function Menu() {
@@ -56,7 +62,7 @@ export default function Menu() {
                 <div style={{ marginTop: "-263px" }}>
 
 
-               
+
 
 
                     <AliceCarousel autoPlay autoPlayInterval="3000">
@@ -65,12 +71,10 @@ export default function Menu() {
                         <div className="col-user"
                             style={{ background: "white", width: "516px", height: "184px", marginLeft: "440px" }}>
 
-
-
                             <strong
                                 style={{ fontSize: "32px" }}>Manuela</strong>
 
-                            <div style={{ marginTop: "29px" }} className="user-text">
+                            <div style={{ marginTop: "29px", fontSize: "15px" }} className="user-text">
                                 <strong style={{ color: "#554355;" }}>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -89,7 +93,7 @@ export default function Menu() {
 
                                 style={{ fontSize: "32px" }}>Jessica</strong>
 
-                            <div style={{ marginTop: "29px" }} className="user-text">
+                            <div style={{ marginTop: "29px", fontSize: "15px" }} className="user-text">
                                 <strong style={{ color: "#554355;" }}>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
