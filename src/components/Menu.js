@@ -31,6 +31,7 @@ nav {
     width: 100%;
     height: 70px;
     background-color: #Fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
   .logo {
@@ -127,16 +128,16 @@ export default function Menu() {
 
                 <nav>
                     <a href="#" className="logo">MEU CUZAO</a>
-                 
+
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="Produtos.js">Produtos</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Contact us</a></li>
                     </ul>
-                  
-                    <button><span>MENU</span></button>
+
+                    <button>tetetet</button>
                 </nav>
 
 
